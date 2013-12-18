@@ -69,6 +69,12 @@ last 2 examples and allowing us to share the source code :)
 Want to be part of the pixi.js project? Great! All are welcome! We will get there quicker together :)
 Whether you find a bug, have a great feature request or you fancy owning a task from the road map above feel free to get in touch.
 
+A couple of things to ensure smooth development:
+
+- Make sure to submit all PRs to the `dev` branch (not master).
+- Only commit the files that must be changed.
+- Don't commit new builds, make sure to run grunt to ensure there are no errors but don't commit the new builds you make.
+
 ### How to build ###
 
 PixiJS is build with Grunt. If you don't already have this, go install Node and NPM then install the Grunt Command Line.
